@@ -1,0 +1,7 @@
+Glacier2.InstanceName=DemoGlacier2
+Glacier2.Client.Endpoints=udp -p 4063 -h localhost:tcp -p 4063 -h localhost
+Glacier2.SessionTimeout=60
+Glacier2.PermissionsVerifier=DemoGlacier2/NullPermissionsVerifier
+Glacier2.Server.Endpoints=tcp -h localhost
+Glacier2.Client.ForwardContext=1
+Glacier2.Server.ForwardContext=1
